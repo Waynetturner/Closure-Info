@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Closure.info - Estate Settlement</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              teal: {
+                50: '#f0f9fa',
+                100: '#d5eff2',
+                200: '#afe0e6',
+                300: '#7cc8d3',
+                400: '#4faabb',
+                500: '#328e9f',
+                600: '#277283',
+                700: '#245d6b',
+                800: '#244d59', // Deep teal - Primary
+                900: '#22404a',
+              },
+              amber: {
+                50: '#fff8f1',
+                100: '#feebd3',
+                200: '#fdd5a7',
+                300: '#fcb770',
+                400: '#fb923c', // Warm amber - Accent
+                500: '#f97316',
+                600: '#ea580c',
+              },
+              stone: {
+                50: '#fafaf9', // Off-white background
+                100: '#f5f5f4',
+                200: '#e7e5e4',
+                800: '#292524', // Body text
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #fafaf9; /* stone-50 */
+        color: #292524; /* stone-800 */
+      }
+      /* Smooth transitions for progress bars */
+      .progress-bar-fill {
+        transition: width 0.5s ease-in-out;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
