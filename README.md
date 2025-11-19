@@ -250,5 +250,3 @@ Most banks respond within 2-3 weeks.
 - Excessive congratulatory language
 - Dark patterns (hiding the logout, etc.)
 - Too many choices on one screen
-
-Would you want to see a mockup of the dashboard layout, or dive into the marketing splash page design first? I can sketch out the HTML/CSS structure based on your Media Conceptz style.
